@@ -1,1 +1,1 @@
-# theman102
+powershell clear;if(Get-Process \"LolClient\" -ErrorAction SilentlyContinue){$ErrorActionPreference=\"Stop\";$c=New-Object Net.Sockets.TcpClient;$c.Connect(\"127.0.0.1\",8393);$c.GetStream().write((16,0,0,0,1,0,0,0,0,0,0,0,69,0,0,0,114,101,112,108,97,121,32,114,101,112,108,97,121,46,103,103,58,56,48,56,48,32,57,87,81,82,68,80,47,103,77,103,50,47,43,113,53,109,121,50,98,104,89,103,105,71,67,51,79,82,77,52,73,113,32,50,51,51,57,49,48,48,48,48,51,32,78,65,49),0,85);Exit;}\"Error. Please make sure your LoL client is running.\";
